@@ -1,0 +1,20 @@
+.menu {
+   
+     color:#01AFC8;
+     display: flex;
+     justify-content: space-evenly;
+ 
+   }
+   button{
+    margin-right: 0.5%;
+   }
+   .logo{
+     background-image: url("/../assets/logo.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+ 
+     width: 30%;
+     height: 64px;
+   }
+ 
+   

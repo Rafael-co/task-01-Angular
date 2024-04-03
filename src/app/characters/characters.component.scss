@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+app-character-card{
+    margin-top: 2%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    color: black;
+    background-color: silver;
+
+  
+}
+.botoes{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+<section class="column">
+<div class="flex" >
+<app-character-card  *ngFor="let char of characters.results" [character] = "char"/>
+</div>
+<div class="botoes">
+<button mat-mini-fab (click)="previousPage()">-</button>
+<span>{{page}}</span>
+<button mat-mini-fab (click)="nextPage()">+</button>
+</div>
+</section>

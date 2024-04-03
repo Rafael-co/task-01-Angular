@@ -1,0 +1,39 @@
+.fundo{
+    height: 90%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 50%;
+    background-color: rgba(13, 13, 13,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+mat-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.capa{
+    width: 40%;
+    height: auto;
+    
+}
+.principal{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}

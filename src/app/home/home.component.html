@@ -1,0 +1,21 @@
+<section class="fundo">
+    <p>Sobre a série </p>
+<mat-card class="card">
+    <mat-card-header>
+        <p class="principal">{{resume.original_name}}</p>
+      
+    </mat-card-header>
+    
+    <mat-card-content>
+        
+        <img src="../../assets/capaSerie.jpg"  alt="capa serie" class="capa" matCardImage>
+        <span class="principal">Sinopse</span>
+        <span>{{resume.overview}}</span>
+      
+    </mat-card-content>
+    <mat-card-footer>
+        <span class="principal">popularidade: </span>
+        <span style="margin-top: 1%;">{{resume.popularity}} /10000 </span>
+    </mat-card-footer>
+</mat-card>
+</section>
