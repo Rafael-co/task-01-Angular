@@ -10,6 +10,7 @@ import { MaterialModule } from './material/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CharacterCardComponent } from './components/character-card/character-card.component';
 import { CharactersComponent } from './characters/characters.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CharactersComponent } from './characters/characters.component';
     HomeComponent,
     HeaderComponent,
     CharacterCardComponent,
-    CharactersComponent
+    CharactersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
